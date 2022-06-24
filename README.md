@@ -1,7 +1,7 @@
 # Search Visualizer
 ## Description
 This is a program that tests the speed and efficiency of different graph search algorithms. It accomplishes this by generating a maze, and placing a marker in a random maze cell. The program will then find the marker using different search algorithms based on user input. After the marker is found, a return path will be drawn to the start marker. Statitstics such as search time and search efficiency will be listed in the side menu.
-![Depth First Search with 125 X 250 Maze](github.com/maheersayeed99/SearchVisualizer/images/)
+![Depth First Search with 125 X 250 Maze](https://github.com/maheersayeed99/SearchVisualizer/blob/main/images/Screen%20Shot%202022-06-23%20at%2010.03.54%20PM.png)
 ## Running the Application
 Cmake is used to build and run the program. Create a build directory outside the repository and enter
 `cmake add ./SearchVisualizer`. After this, build the program with the command `cmake --build . --target maze --config Release`. 'maze' is the name of the target executable for this program.  
